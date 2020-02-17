@@ -1,0 +1,21 @@
+{
+    "name": "Sami's Deli",
+    "appetizers": ["Coleslaw", "Chips", "Potato Salad"],
+    "coldSandwiches": [
+        {
+        "BLT":["Bacon", "Lettuce", "Tomato", "Sourdough Bread", "Mayo"], 
+        "Turkey Bacon Swiss":["Turkey", "Bacon", "Swiss", "Pepperjack Cheese","Mustard", "Sourdough"], 
+        "Ruben": ["Pastrami", "Rye Bread", "Swiss Cheese", "Thousand Island"]
+        }],
+    "hotSandwiches": [
+        {
+        "Turkey Panini":["Turkey", "Pepperjack Cheese", "Avocado Mayo", "Bacon", "Chibatta Bread"],
+        "Meatball Sub":["Handmade Meatballs", "Marinara Sauce", "Mozzerella Cheese", "Hoagie Bun"],
+        "French Dip":["Roast Beef", "Swiss Cheese", "Onions", "Bagget", "Beef Broth Dipping Sauce"]
+        }],
+    "desserts": ["Macadamia Nut Cookie", "Chocolate Chip Cookie", "Oatmeal Cookie"],
+    "drinks": [{
+        "Fountain Drinks":["Sprite", "Coke", "Diet Coke", "Dr Pepper", "Mountain Dew", "Root Beer"], 
+        "Coffee": ["Black Coffee", "Mocha", "Iced Coffee"]
+        }]
+}
