@@ -1,63 +1,39 @@
-const obj = `{
+var newP = {
+    "response_code": 0,
     "results": [
         {
-            "category": "Entertainment: Music",
-            "type": "multiple",
-            "difficulty": "medium",
-            "question": "Who wrote the musical composition, &quot;Rhapsody In Blue&quot;?",
-            "correct_answer": "George Gershwin",
+            "category": "Animals",
+            "type": "boolean",
+            "difficulty": "easy",
+            "question": "Kangaroos keep food in their pouches next to their children.",
+            "correct_answer": "False",
             "incorrect_answers": [
-                "Irving Berlin",
-                "Duke Ellington",
-                "Johnny Mandel"
+                "True"
             ]
         },
         {
-            "category": "Science: Mathematics",
+            "category": "Animals",
             "type": "boolean",
-            "difficulty": "medium",
-            "question": "111,111,111 x 111,111,111 = 12,345,678,987,654,321",
+            "difficulty": "easy",
+            "question": "A bear does NOT defecate during hibernation. ",
             "correct_answer": "True",
             "incorrect_answers": [
                 "False"
             ]
         },
         {
-            "category": "Geography",
+            "category": "Animals",
             "type": "multiple",
             "difficulty": "easy",
-            "question": "What name was historically used for the Turkish city currently known as Istanbul?",
-            "correct_answer": "Constaninople",
+            "question": "What is Grumpy Cat&#039;s real name?",
+            "correct_answer": "Tardar Sauce",
             "incorrect_answers": [
-                "H&uuml;davendigar",
-                "S&ouml;ğ&uuml;t",
-                "Adrianople"
-            ]
-        },
-        {
-            "category": "Entertainment: Comics",
-            "type": "multiple",
-            "difficulty": "medium",
-            "question": "In Pre-Super Genesis universe of &quot;Sonic the Hedgehog&quot; comic, what was the name of  Sally Acorn&#039;s brother?",
-            "correct_answer": "Elias Acorn",
-            "incorrect_answers": [
-                "Maximillian Acorn",
-                "Alexis Acorn",
-                "Frederick Acorn"
-            ]
-        },
-        {
-            "category": "Entertainment: Comics",
-            "type": "multiple",
-            "difficulty": "medium",
-            "question": "Who created Ultron of Earth-616?",
-            "correct_answer": "Henry Pym",
-            "incorrect_answers": [
-                "Amadeus Cho",
-                "Tony Stark",
-                "Reed Richards"
+                "Sauce",
+                "Minnie",
+                "Broccoli"
             ]
         }
     ]
-}`
-console.log(JSON.parse(obj))
+}
+var obj = JSON.stringify(newP)
+document.body.innerHTML = obj
