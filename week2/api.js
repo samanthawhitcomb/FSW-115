@@ -1,4 +1,4 @@
-var newP = {
+ var newP = `{
     "response_code": 0,
     "results": [
         {
@@ -34,6 +34,12 @@ var newP = {
             ]
         }
     ]
-}
+}`
+
+
 var obj = JSON.stringify(newP)
 document.body.innerHTML = obj
+
+// wanted to try and use JSON.parse() but couldnt seem to get it to Work.
+// var obj = JSON.parse(newP)
+// document.body.innerHTML = obj
