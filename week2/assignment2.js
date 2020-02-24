@@ -39,4 +39,44 @@ var obj = {
         }
     ]
 }
-console.log(obj)
+// var list = document.createElement("ul")
+// document.body.append(list)
+
+// // var listItem = document.createElement("li")
+// // listItem.map(obj) 
+// // list.append(listItem)
+
+// var listItem = document.createElement("li")
+// listItem.map(obj) 
+// list.append(listItem)
+
+// var newObj = JSON.parse(obj);
+// document.getElementById("demo").innerHTML = objNew;
+
+// var newObj = JSON.stringify(obj)
+// var list = newObj.map(newObj => {
+//     newObj.push(newObj.results)
+// })
+// document.getElementById("demo").innerHTML = list;
+// document.getElementById("demo").innerHTML = newObj;
+
+// function getQuestions(item) {
+//     let q = [item.question];
+//     return q;
+// };
+// question = obj.results.map(getQuestions);
+//     for(i = 0; i < question.length; i++) {
+//     let addQuestions = document.getElementById("question");
+//     let li = document.createElement("li");
+//     li.textContent = question[i];
+//     addQuestions.body.append(li)};
+
+
+    // function getQuestion(item) {
+    //     var question = [item.results];
+    //     return question;
+    //   }
+      
+    //   function myFunction() {
+    //     document.getElementById("demo").innerHTML = obj.map(getQuestion);
+    //   }
