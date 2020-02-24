@@ -1,4 +1,4 @@
-var obj = {
+const obj = {
     "response_code": 0,
     "results": [
         {
@@ -69,7 +69,7 @@ var obj = {
 //     let addQuestions = document.getElementById("question");
 //     let li = document.createElement("li");
 //     li.textContent = question[i];
-//     addQuestions.body.append(li)};
+//     addQuestions.append(li)};
 
 
     // function getQuestion(item) {
@@ -80,3 +80,13 @@ var obj = {
     //   function myFunction() {
     //     document.getElementById("demo").innerHTML = obj.map(getQuestion);
     //   }
+//ctrl+D(to select all objects at the same time)
+// var newArr = ["Sience & Nature", "Politics", "Entertainment: Music"]
+
+var list = document.createElement("ul")
+document.body.append(list)
+    for (var i = 0; i < obj.results.length; i++){
+        var li = document.createElement("li");
+        li.textContent = obj.results[i].question;
+        list.append(li);
+    }
